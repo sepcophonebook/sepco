@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<style type = "text/css">
+         h1 {
+            -moz-animation-duration: 3s;
+            -webkit-animation-duration: 3s;
+            -moz-animation-name: slidein;
+            -webkit-animation-name: slidein;
+         }
+         @-moz-keyframes slidein {
+            from {
+               margin-left:100%;
+               width:300%
+            }
+            to {
+               margin-left:0%;
+               width:100%;
+            }
+         }
+         @-webkit-keyframes slidein {
+            from {
+               margin-left:100%;
+               width:300%
+            }
+            to {
+               margin-left:0%;
+               width:100%;
+            }
+         }
+      </style>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-container {
+  background-color: #000000;
+  padding: 1px;
+  text-align: left;
+}
+
+.header {
+  padding: 10px 16px;
+  background: #7282fb;
+  color: #f1f1f1;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+</style>
+
+
+
+
+</head>
+
+<body style="background-color:#000000;">
+
+
+
+
+<div class="top-container">
+      
+<h1>
+<p style = "color:white; font-size:24px; font-variant:small-caps;">SEPCO PHONEBOOK</p>
+
+
+</h1>
+</div>
+
+<p style = "color:white; font-size:14px; font-variant:small-caps;"><b>Prepared & designed By:
+<br>
+Soomro Tufail</b>
+<br>
+Addl. A.M (C.O)
+<br>
+SEPCO HQ Sukkur</p>
+
+<div class="header" id="myHeader">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #fb72f0;
+  margin-bottom: 1px;-
+	
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+#myUL li a {
+  border: 1px solid #096;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #ffffff;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+  font-family: Candara;
+  
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #7282fb;
+  color: white;	
+}
+</style>
+
+ 
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search Here - Name OR Designation..." title="Type in a name">
+
+</div>
+
+
+<div class="content">
+<ul id="myUL">
+  	<a href="#">	<li>	General Manager / CEO RHQ Sukkur	|	Mr.	Saeed Ahmed Dawach	-	0300-9319499	</a>	</li>
+<a href="#">	<li>	Principal Staff Officer / PSO	|	Mr.	Aamir Shaikh	-	0300-9310290	</a>	</li>
+<a href="#">	<li>	Deputy Manager (PR) RHQ Sukkur	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	Company Secretary BoD RHQ Sukkur	|	Mr.	Imdad Ali Mirani	-	0300-0881101	</a>	</li>
+<a href="#">	<li>	Director General (HR) RHQ Sukkur	|	Mr.	Muzaffar Nizam	-	0304-3574606	</a>	</li>
+<a href="#">	<li>	Manager (L&L) RHQ Sukkur	|	Mr.	Deepak Kumar	-	0333-7592946	</a>	</li>
+<a href="#">	<li>	Manager (HR) RHQ Sukkur	|	Mr.	Deepak Kumar	-	0333-7592946	</a>	</li>
+<a href="#">	<li>	Deputy Manager (HR) RHQ Sukkur	|	Mr.	Inamullah	-	0333-4962758	</a>	</li>
+<a href="#">	<li>	Assistant Manager (Admn.) TMP RHQ Sukkur	|	Mr.	Rahimdad Sohu	-	0345-3839737	</a>	</li>
+<a href="#">	<li>	Assistant Manager (C.M) RHQ Sukkur	|	Mr.	Inamullah	-	0333-4962758	</a>	</li>
+<a href="#">	<li>	Manager (Admn.) RHQ Sukkur	|	Mr.	Muhammad Asadullah Mughal	-	0300-8595510	</a>	</li>
+<a href="#">	<li>	Deputy Manager (Services) RHQ Sukkur	|	Mr.	Rahimdad Sohu	-	0345-3839737	</a>	</li>
+<a href="#">	<li>	Deputy Manager (Transport) RHQ Sukkur	|	Mr.	Raj Kumar	-	0300-3112383	</a>	</li>
+<a href="#">	<li>	Deputy Manager (Security) RHQ Sukkur	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	Sr. Instructor (RTC) Sukkur	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	Assistant Manager (CTC) Larkana	|	Mr.	Muhammad Ismail Qureshi	-	0300-3400234	</a>	</li>
+<a href="#">	<li>	Assistant Manager (CTC) Dadu	|	Mr.	Akhtar Hussain Memon	-	0301-3610837	</a>	</li>
+<a href="#">	<li>	Head Master (WAPDA Model High School) Sukkur	|	Mr.	Gul Muhammad Soomro	-	0333-2959009	</a>	</li>
+<a href="#">	<li>	Chief Technical Officer RHQ Sukkur	|	Mr.	Manzoor Hussain Soomro	-	0300-8314949	</a>	</li>
+<a href="#">	<li>	Manager (Planning & Design) Sukkur	|	Mr.	Muzaffar Hussain Khuhawar	-	0300-3023316	</a>	</li>
+<a href="#">	<li>	Deputy Manager (Ware House) Sukkur	|	Mr.	Irshad Ali Baloch	-	0300-3414262	</a>	</li>
+<a href="#">	<li>	Deputy Manager (MI & T&G) Sukkur	|	Mr.	Ghulam Ali Tunio	-	0301-2245760	</a>	</li>
+<a href="#">	<li>	Deputy Manager (Design T&G) Sukkur	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	Deputy Manager (Planning T&G) Sukkur	|	Mr.	Shahzado Deedar Ali	-	0300-6661914	</a>	</li>
+<a href="#">	<li>	Deputy Manager (Design) Distribution Sukkur	|	Agha	Shoaib	-	0333-7282192	</a>	</li>
+<a href="#">	<li>	Deputy Manager (MID) Sukkur	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	Deputy Manager (P&D) Sukkur	|	Mr.	Nizamuddin Pirzado	-	0305-3153111	</a>	</li>
+<a href="#">	<li>	Manager (Material Management) RHQ Sukkur	|	Mir	Azhar Ali Talpur	-	0300-9311800	</a>	</li>
+<a href="#">	<li>	Deputy Manager (P&P) Distribution RHQ Sukkur	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	Deputy Manager (Disposal) RHQ Sukkur	|	Mr.	Irshad Ali Baloch	-	0300-3414262	</a>	</li>
+<a href="#">	<li>	Deputy Manager (Inventory Control) RHQ Sukkur	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	Assistant Manager (MM) RHQ Sukkur	|	Mr.	Sanaullah Soomro	-	0315-3035883	</a>	</li>
+<a href="#">	<li>	Assistant Manager (CA) Regional Store Rohri	|	Mr.	Babar Rafique	-	0331-3143137	</a>	</li>
+<a href="#">	<li>	Deputy Manager (Regional Store) Rohri	|	Mr.	Ameer Baloch	-	0334-3464846	</a>	</li>
+<a href="#">	<li>	Field Store Manager Sukkur	|	Mr.	Ameer Baloch	-	0334-3464846	</a>	</li>
+<a href="#">	<li>	Field Store Manager Ghotki	|	Mr.	Ameer Baloch	-	0334-3464846	</a>	</li>
+<a href="#">	<li>	Field Store Manager Ranipur @ Kotdji	|	Mr.	Ameer Baloch	-	0334-3464846	</a>	</li>
+<a href="#">	<li>	Field Store Manager Dadu	|	Mr.	Nazeer Ahmed Soomro	-	0300-3273117	</a>	</li>
+<a href="#">	<li>	Field Store Manager Naushero Feroze @ Tharu Shah	|	Mr.	Ansar Ahmed Shaikh	-	0325-3083655	</a>	</li>
+<a href="#">	<li>	Deputy Manager (Regional Store) Larkana	|	Mr.	Abdul Wahab Kheero	-	0300-0587220	</a>	</li>
+<a href="#">	<li>	Field Store Manager Shikarpur	|	Mr.	Shahzado Kandrani	-	0300-3253300	</a>	</li>
+<a href="#">	<li>	Field Store Manager Jacobabad	|	Mr.	Imtiaz Ahmed Bhayo	-	0301-3844014	</a>	</li>
+<a href="#">	<li>	Poject Director (Construction) Larkana	|	Mr.	Pervez Ahmed Phulpoto	-	0300-3146625	</a>	</li>
+<a href="#">	<li>	Senior Engineer (Attached with P.D (Construction) Larkana	|	Mr.	Sarfraz Qadir Shaikh	-	0333-7542005	</a>	</li>
+<a href="#">	<li>	XEN (Construction) Divn. Sukkur	|	Mr.	Syed Soofan Ali Shah	-	0300-3130636	</a>	</li>
+<a href="#">	<li>	SDO (Construction) Sub Divn-I Sukkur	|	Mr.	Abdul Waheed Korai	-	0303-3392222	</a>	</li>
+<a href="#">	<li>	SDO (Construction) Sub Divn-II Sukkur	|	Mr.	Rahim Bux Phulpoto	-	0300-9318808	</a>	</li>
+<a href="#">	<li>	SDO (Construction) Sub Divn-III Sukkur	|	Mr.	Rahim Bux Phulpoto	-	0300-9318808	</a>	</li>
+<a href="#">	<li>	XEN (Construction) Divn. Larkana	|	Mr.	Muhammad Akil Sarki	-	0300-6763577	</a>	</li>
+<a href="#">	<li>	SDO (Construction) Sub Divn. Larkana	|	Mr.	Riaz Hussain Bhatti	-	0300-3414324	</a>	</li>
+<a href="#">	<li>	SDO (Construction) Sub Divn. Shikarpur	|	Mr.	Riffat Hussain Abbasi	-	0334-2447770	</a>	</li>
+<a href="#">	<li>	SDO (Construction) Sub Divn. Jacobabad	|	Mr.	Karamat Ali Panhyar	-	0336-8187480	</a>	</li>
+<a href="#">	<li>	XEN (Construction) Divn. Dadu	|	Mr.	Aijaz Hussain Detho	-	0300-3214419	</a>	</li>
+<a href="#">	<li>	SDO (Construction) Sub Divn. Naushero Feroze	|	Mr.	Mumtaz Pirzado	-	0300-3214868	</a>	</li>
+<a href="#">	<li>	SDO (Construction) Sub Divn. Dadu	|	Mr.	Zulifqar Ali Mallah	-	0300-3271312	</a>	</li>
+<a href="#">	<li>	XEN (ELR) Construction Divn. Larkana	|	Mr.	Abdul Ghaffar Shaikh	-	0300-3492233	</a>	</li>
+<a href="#">	<li>	SDO (ELR) Construction Sub Divn. Sukkur	|	Mr.	Abdul Waheed Korai	-	0303-3392222	</a>	</li>
+<a href="#">	<li>	SDO (ELR) Construction Sub Divn. Larkana	|	Mr.	Ali Asghar Shaikh	-	0334-2783035	</a>	</li>
+<a href="#">	<li>	SDO (ELR) Construction Sub Divn. Dadu	|	Mr.	Aijaz Ali Leghari	-	0300-3125165	</a>	</li>
+<a href="#">	<li>	Superintending Engineer GSO Circle Sukkur	|	Mr.	Muhammad Ali Memon	-	0300-9319372	</a>	</li>
+<a href="#">	<li>	XEN (P&I) Divn. Sukkur	|	Mr.	Vijay Kumar	-	0300-6890985	</a>	</li>
+<a href="#">	<li>	Assistant Engineer (P&I) Sub Divn. Sukkur	|	Mr.	Abdul Shakoor	-	0301-3437350	</a>	</li>
+<a href="#">	<li>	Assistant Engineer (P&I) Sub Divn. Larkana	|	Mr.	Abdul Shakoor	-	0301-3437350	</a>	</li>
+<a href="#">	<li>	Assistant Engineer (P&I) Sub Divn. Dadu	|	Mr.	Shahid Hussain Solangi	-	0302-3251525	</a>	</li>
+<a href="#">	<li>	Assistant Engineer (P&I) Emergency Gang Sukkur	|	Mr.	Jahangir Makhdoom	-	0303-3668205	</a>	</li>
+<a href="#">	<li>	XEN (SS&T) Divn. Sukkur	|	Mr.	Fareed Ahmed Pathan	-	0300-9319681	</a>	</li>
+<a href="#">	<li>	Assistant Engineer (Maintenance) SS&T Sub Divn. Sukkur	|	Mr.	Syed Afzal Shah	-	0331-2901739	</a>	</li>
+<a href="#">	<li>	Assistant Engineer (Transmission) SS&T Sub Divn. Sukkur	|	Mr.	Jamshed Ali Memon	-	0311-2204470	</a>	</li>
+<a href="#">	<li>	Assistant Engineer (Transmission) SS&T Sub Divn. Ghotki	|	Mr.	Aijaz Ali Kalhoro	-	0300-0625160	</a>	</li>
+<a href="#">	<li>	Assistant Engineer (Transmission) SS&T Sub Divn. Khairpur	|	Mr.	Mushtaque Ahmed Arejo	-	0300-3027287	</a>	</li>
+<a href="#">	<li>	R.E 132KV Grid Station Rohri	|	Mr.	Khalid Hussain Bhutto	-	0307-7042678	</a>	</li>
+<a href="#">	<li>	XEN (SS&T) Divn. Larkana	|	Mr.	Abdul Haque Sial	-	0333-7547986	</a>	</li>
+<a href="#">	<li>	Assistant Engineer (Maintenance) SS&T Sub Divn. Larkana	|	Mr.	Riaz Hussain Gilal	-	0300-3429370 	</a>	</li>
+<a href="#">	<li>	Assistant Engineer (Transmission) SS&T Sub Divn. Larkana	|	Mr.	Riaz Hussain Gilal	-	0300-3429370 	</a>	</li>
+<a href="#">	<li>	Assistant Engineer (Transmission) SS&T Sub Divn. Kandh-Kot	|	Mr.	Amanullah	-	0333-7302620 	</a>	</li>
+<a href="#">	<li>	Assistant Engineer (Transmission) SS&T Sub Divn. Shikarpur	|	Mr.	Hakim Ali	-	0333-7309923	</a>	</li>
+<a href="#">	<li>	R.E 132KV Grid Station Larkana	|	Mr.	Rahim Bux Tunio	-	0306-9721810	</a>	</li>
+<a href="#">	<li>	R.E 132KV Grid Station Shikarpur	|	Mr.	Ghulam Shabbir Mahar	-	0333-7268246	</a>	</li>
+<a href="#">	<li>	R.E 132KV Grid Station Jacobabad	|	Mr.	Abdul Sattar Lashari	-	0335-2621013	</a>	</li>
+<a href="#">	<li>	XEN (SS&T) Divn. Dadu	|	Mr.	Irfan Shaikh	-	0307-3242526	</a>	</li>
+<a href="#">	<li>	Assistant Engineer (Maintenance) SS&T Sub Divn. Dadu	|	Mr.	Muhammad Ilyas Bhutto	-	0333-7071090	</a>	</li>
+<a href="#">	<li>	Assistant Engineer (Transmission) SS&T Sub Divn. Dadu	|	Mr.	Nazeer Ahmed	-	0306-8577948	</a>	</li>
+<a href="#">	<li>	Assistant Engineer (Transmission) SS&T Sub Divn. Mehar	|	Mr.	Nazeer Ahmed - SSO-I  (Addl. Charge)	-	0306-8577948	</a>	</li>
+<a href="#">	<li>	Assistant Engineer (Transmission) SS&T Sub Divn. Moro	|	Mr.	Nazeer Ahmed - SSO-I  (Addl. Charge)	-	0306-8577948	</a>	</li>
+<a href="#">	<li>	R.E 132KV Grid Station Naushero Feroze	|	Mr.	Liaquat Ali Solangi	-	0334-1269532	</a>	</li>
+<a href="#">	<li>	Chief Commercial Officer RHQ Sukkur	|	Mr.	Raja Aziz Ahmed Rid	-	0300-9318573	</a>	</li>
+<a href="#">	<li>	Manager (Commercial) RHQ Sukkur	|	Mr.	Raja Aziz Ahmed Rid	-	0300-9318573	</a>	</li>
+<a href="#">	<li>	Deputy Commercial Manager RHQ Sukkur	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	Incharge Net Metering System RHQ Sukkur	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	Manager (S&I) RHQ Sukkur	|	Mr.	Abdul Ghaffar Shaikh	-	0331-3492577	</a>	</li>
+<a href="#">	<li>	Deputy Manager (S&I) 	|	Mr.	Irfan Ali Soomro	-	0312-3003452	</a>	</li>
+<a href="#">	<li>	Deputy Manager (S&I) 	|	Mr.	Saeed Ahmed Shaikh	-	0300-3120882	</a>	</li>
+<a href="#">	<li>	Assistant Manager (S&I)	|	Mr.	Fida Hussain Bhutto	-	0315-4157379	</a>	</li>
+<a href="#">	<li>	Assistant Manager (S&I)	|	Mr.	Syed Waqar Ahmed Shah	-	0300-3298269	</a>	</li>
+<a href="#">	<li>	Regional Manager (M&T) 	|	Mr.	Mushtaque Ahmed Abbasi	-	0331-3411345	</a>	</li>
+<a href="#">	<li>	Circle Manager (M&T) Sukkur	|	Mr.	Kashif Ali Qureshi 	-	0300-3137062	</a>	</li>
+<a href="#">	<li>	Circle Manager (M&T) Larkana	|	Mr.	Shabir Ahmed Solangi	-	0315-3448776	</a>	</li>
+<a href="#">	<li>	Circle Manager (M&T) Dadu	|	Mr.	Taif Hussain Memon	-	0301-3210334	</a>	</li>
+<a href="#">	<li>	Test Engineer (M&T) Sukkur	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	Incharge / Focal Person (RCSC) Sukkur	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	Deputy Manager (RCSC) Sukkur	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	Deputy Manager (Contract Management) Sukkur	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	Assistant Director (CS) Opr. Circle Larkana	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	Assistant Manager attached with Incharge (RCSC) for PMDU Sukkur	|	Ms	Shagufta Pechuho	-	0333-7332102	</a>	</li>
+<a href="#">	<li>	Assistant Manager (RCSC) Sukkur	|	Mr.	Asghar Ali Daud Pota	-	0300-9312113	</a>	</li>
+<a href="#">	<li>	Chief Engineer (Dev.) PMU Sukkur	|	Mr.	Bashir Ahmed Shaikh	-	0300-3008921	</a>	</li>
+<a href="#">	<li>	Manager (PS&C) PMU Sukkur	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	Deputy Manager (MC&C) PMU Sukkur	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	Assistant Manager (MC&C) PMU Sukkur	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	Deputy Manager (P&SCh.) PMU Sukkur	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	Assistant Manager (P&Sch.) PMU Sukkur	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	Deputy Manager (Environment. & Safe Guard) PMU Sukkur	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	Assistant Manager (Environment) PMU Sukkur	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	Assistant Manager (Social Impact) PMU Sukkur	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	Manager (Procurment) PMU Sukkur	|	Mr.	Aamir Shaikh	-	0300-9310290	</a>	</li>
+<a href="#">	<li>	Deputy Manager (Procurment) PMU Sukkur	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	Assistant Manager (Procurment) PMU Sukkur	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	Manager (Project Finance) PMU Sukkur	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	Deputy Manager (Project Finance) PMU Sukkur	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	Assistant Manager (Project Finance) PMU Sukkur	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	Project Director (GSC) Sukkur	|	Mr.	Abdul Ghani Shaikh	-	0300-9316311	</a>	</li>
+<a href="#">	<li>	Deputy Manager (Inspection) GSC Sukkur	|	Mr.	Muhammad Ali Soomro	-	0300-9717223	</a>	</li>
+<a href="#">	<li>	Assistant Manager (CA) GSC Sukkur	|	Mr.	Khalid Hussain Mirani	-	0300-3127440	</a>	</li>
+<a href="#">	<li>	XEN (T/L) Const. Divn. Sukkur	|	Mr.	Arbab Ali Khoso	-	0300-3898724	</a>	</li>
+<a href="#">	<li>	SDO 2nd T/L Sub Divn. Sukkur	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	SDO 3rd T/L Sub Divn. Sukkur	|	Mr.	Abdul Hafeez Tunio	-	0333-2443357	</a>	</li>
+<a href="#">	<li>	XEN (T&G) Sukkur	|	Mr.	Muhammad Ali Soomro	-	0300-9717223	</a>	</li>
+<a href="#">	<li>	SDO 1st T&G Sub Divn-I Sukkur	|	Mr.	Abdul Shakoor Mangi	-	0300-9314634	</a>	</li>
+<a href="#">	<li>	SDO 2nd T&G Sub Divn-II Sukkur	|	Mr.	Abdul Hameed Sarki	-	0332-3471300	</a>	</li>
+<a href="#">	<li>	SDO (Civil) T&G Sub Divn. Sukkur	|	Mr.	Nisar Ahmed Mangi	-	0300-3421265	</a>	</li>
+<a href="#">	<li>	SDO (T&I) Sub Divn. Sukkur @ Rohri	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	Assistant Land Acquisition Officer (GSC) Sukkur	|	Mr.	Abdul Hafeez Tunio	-	0333-2443357	</a>	</li>
+<a href="#">	<li>	Chief Opearting Officer / O.D RHQ Sukkur	|	Mr.	Abdul Karim Memon	-	0300-0338818	</a>	</li>
+<a href="#">	<li>	Manager (CM&O) RHQ Sukkur	|	Mr.	Raj Kumar	-	0300-3112383	</a>	</li>
+<a href="#">	<li>	Deputy Manager (Safety) RHQ Sukkur	|	Mr.	Kashif Ali Qureshi	-	0300-3137062	</a>	</li>
+<a href="#">	<li>	Deputy Manager (PMC) Sukkur	|	Mr.	Nisar Ahmed Mangi	-	0300-3421265	</a>	</li>
+<a href="#">	<li>	XEN (Civil) Sukkur	|	Mr.	Abdul Hameed Shaikh	-	0300-3010098	</a>	</li>
+<a href="#">	<li>	SDO (Civil) Works Sukkur	|	Mr.	Abdul Hameed Shaikh	-	0300-3010098	</a>	</li>
+<a href="#">	<li>	SDO (Civil) Works Larkana	|	Mr.	Abid Hussain Mangi	-	0335-2286981	</a>	</li>
+<a href="#">	<li>	SDO (Civil) Works Dadu	|	Mr.	Nisar Ahmed Mangi	-	0333-7506923	</a>	</li>
+<a href="#">	<li>	Deputy Manager (PDC) Sukkur	|	Mr.	Ayaz Ahmed Shaikh	-	0316-3315857	</a>	</li>
+<a href="#">	<li>	Assistant Manager (PDC)	|	Mr.	Ahmed Ali 	-	0333-7331742	</a>	</li>
+<a href="#">	<li>	Assistant Manager (PDC)	|	Mr.	Rab Dino Shaikh	-	0333-1347404	</a>	</li>
+<a href="#">	<li>	Superintending Engineer Opr. Circle Sukkur	|	Mr.	Manzoor Hussain Soomro	-	0300-3122313	</a>	</li>
+<a href="#">	<li>	Deputy Commercial Manager Opr. Circle Sukkur	|	Mr.	Javed Ahmed Abbasi	-	0321-5019523	</a>	</li>
+<a href="#">	<li>	Deputy Director (Technical) Opr. Circle Sukkur	|	Mr.	Taj Muhammad Mako	-	0333-7299997	</a>	</li>
+<a href="#">	<li>	SDO (Rotary Cell) Opr. Circle Sukkur	|	Mr.	Wajahat Ashraf Ghazali	-	0322-3159448	</a>	</li>
+<a href="#">	<li>	XEN Opr. Divn. Sukkur	|	Mr.	Mairajuddin Shaikh	-	0300-8317961	</a>	</li>
+<a href="#">	<li>	Revenue Officer Sukkur.	|	Mr.	Abdul Naeem Katpar	-	0333-7102537	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Sukkur-I	|	Mr.	Muhammad Jan Bugti	-	0300-3204349	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Sukkur-II	|	Mr.	Mushtaque Qureshi	-	0301-8311879	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Bandar Road	|	Mr.	Israr Ahmed Bajkani	-	0300-3119502	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Site - Sukkur	|	Mr.	Nisar Ahmed Shaikh	-	0300-3123779	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Society	|	Mr.	Khalique Zaman Domki	-	0312-2698040	</a>	</li>
+<a href="#">	<li>	XEN Opr. Divn. Khairpur	|	Mr.	Ghulamullah Solangi	-	0300-0357512	</a>	</li>
+<a href="#">	<li>	Revenue Officer Khairpur	|	Mr.	Shakeel Ahmed Malik	-	0301-3860859	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Khairpur	|	Mr.	Aijaz Ahmed Abbasi	-	0300-3150452	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Luqman	|	Mr.	Abdul Ghaffar Junejo	-	0304-3454768	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Priyalo	|	Mr.	Shahid Hussain Shah	-	0333-7125177	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Pir Jo Goth	|	Mr.	Abdul Ghaffar Larik	-	0300-3195331	</a>	</li>
+<a href="#">	<li>	XEN Opr. Divn. Ranipur	|	Mr.	Abdul Sattar Channa	-	0300-3060401	</a>	</li>
+<a href="#">	<li>	Revenue Officer Ranipur	|	Mr.	Mehmood Narejo	-	0306-3107207	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Ranipur	|	Mr.	Shafqat Ali Bhellar	-	0333-8166778	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Gambat	|	Mr.	Abdul Qadeer Kanhar	-	0300-3138745	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Kotdiji	|	Mr.	Abdul Waheed Rajpar	-	0300-3419800	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Setharja	|	Mr.	Javed Ahmed Mojai	-	0307-3596214	</a>	</li>
+<a href="#">	<li>	Superintending Engineer Opr. Circle Ghotki	|	Mr.	Zahoor Ahmed Noonari	-	0300-3143390	</a>	</li>
+<a href="#">	<li>	Deputy Commercial Manager Opr. Circle Ghotki	|	Mr.	Abdul Haque Dahani	-	0300-5781882	</a>	</li>
+<a href="#">	<li>	Deputy Director (Technical) Opr. Circle Ghotki	|	Mr.	Mian Zulfiqar Ali	-	0300-3171002	</a>	</li>
+<a href="#">	<li>	SDO (Rotary Cell) Opr. Circle Ghotki	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	XEN Opr. Divn. Ghotki	|	Mr.	Mian Zulfiqar Ali	-	0300-3171002	</a>	</li>
+<a href="#">	<li>	Revenue Officer Ghotki	|	Mr.	Syed Ihtishamuddin Shah	-	0314-4469584	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Ghotki-I	|	Mr.	Rab Dino Kalwar	-	0300-3274000	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Ghotki-II	|	Mr.	Naveed Imran Shaikh	-	0300-9292075	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Khanpur Mahar	|	Mr.	Saeed Ahmed Mahar	-	0306-8250891	</a>	</li>
+<a href="#">	<li>	XEN Opr. Divn. Mirpur Mathelo	|	Mr.	Faheem Baloch	-	0333-7305294	</a>	</li>
+<a href="#">	<li>	Revenue Officer M.Pur Mathelo	|	Mr.	Waqar Hussain Gadani	-	0302-3366566	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Mirpur Mathelo	|	Mr.	Mohammad Din Dayo	-	0300-9310131	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Ubaro	|	Mr.	Shoukat Ali	-	0333-7170546	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Daherki	|	Mr.	Fayaz Ahmed Bhutto	-	0301-3438667	</a>	</li>
+<a href="#">	<li>	XEN Opr. Divn. Rohri	|	Mr.	Kashif Gulzar Shaikh	-	0300-3145274	</a>	</li>
+<a href="#">	<li>	Revenue Officer Rohri	|	Mr.	Syed Hifazat Shah	-	0310-2858555	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Rohri	|	Mr.	Qazi Shafique Ahmed	-	0333-7444473	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Old Sukkur	|	Mr.	Mohammad Ramzan Malik	-	0313-3620185	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Pano Akil	|	Mr.	Kanwar Mohammad Rashid	-	0300-3153189	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Saleh Pat	|	Mr.	Ghulam Akbar Dayo	-	0300-3130400	</a>	</li>
+<a href="#">	<li>	Superintending Engineer Opr. Circle Larkana	|	Mr.	Abdul Ghaffar Mako 	-	0300-8314791	</a>	</li>
+<a href="#">	<li>	Deputy Commercial Manager Opr. Circle Larkana	|	Mr.	Asghar Ali Sangi 	-	0333-7533941	</a>	</li>
+<a href="#">	<li>	Deputy Director (Technical) Opr. Circle Larkana	|	Mr.	Asghar Ali Sangi	-	0333-7533941	</a>	</li>
+<a href="#">	<li>	SDO (Rotary Cell) Opr. Circle Larkana	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	XEN Opr. Divn. Qamber	|	Mr.	Altaf Hussain Kaheri 	-	0333-7548986	</a>	</li>
+<a href="#">	<li>	Revenue Officer Qamber	|	Mr.	Shah Murad Jatoi 	-	0300-3414243	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Qamber	|	Mr.	Mohammad Aslam Abro	-	0331-3653369	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Shahdadkot	|	Mr.	Bashir Ahmed Junejo 	-	0300-3110652	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Miro Khan	|	Mr.	Mansoor Ahmed Bhutto	-	0300-3434091	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Warah	|	Mr.	Manzoor Mustaffa Bhutto 	-	0332-2778898	</a>	</li>
+<a href="#">	<li>	XEN Opr. Divn. Larkana-City	|	Mr.	Shah Mohammad Bajkani 	-	0300-0141438	</a>	</li>
+<a href="#">	<li>	Revenue Officer Larkana-City	|	Mr.	Sohail Ahmed Khuhawar 	-	0300-3416328	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Jinah Bagh	|	Mr.	Maqsood Ahmed Shaikh	-	0331-3516133	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Empire Road	|	Mr.	Naveed Ahmed Memon	-	0333-7544473	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Chandka	|	Mr.	Saifullah Soomro	-	0333-7527030	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Shaikh Zaid	|	Mr.	Noor Mohammad Abbasi	-	0321-7711103	</a>	</li>
+<a href="#">	<li>	XEN Opr. Divn. Larkana-Rural	|	Mr.	Zahoor Ahmed Qureshi 	-	0300-9289336	</a>	</li>
+<a href="#">	<li>	Revenue Officer Larkana-Rural	|	Mr.	Aijaz Ahmed Kumbhar	-	0331-3904541	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Nasirabad	|	Mr.	Allah Ditto Soho 	-	0304-3968121	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Rato Dero	|	Mr.	Babar Khan Bhutto	-	0300-5222582	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Dokri	|	Mr.	Akhtiar Ahmed Soho	-	0345-3880858	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Nau Dero	|	Mr.	Sajad Hussain Memon	-	0333-7263150	</a>	</li>
+<a href="#">	<li>	Superintending Engineer Opr. Circle Shikarpur	|	Mr.	Sabir Ali Bugti	-	0333-7260979	</a>	</li>
+<a href="#">	<li>	Deputy Commercial Manager Opr. Circle Shikarpur	|	Mr.	Ghulam Yasin Hambhi	-	0333-9993776	</a>	</li>
+<a href="#">	<li>	Deputy Director (Technical) Opr. Circle Shikarpur	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	SDO (Rotary Cell) Shikarpur	|	Mr.	Junaid Ahmed Abbasi	-	0332-2854322	</a>	</li>
+<a href="#">	<li>	XEN Opr. Divn. Shikarpur	|	Mr.	Sabir Ali Bugti	-	0333-7260979	</a>	</li>
+<a href="#">	<li>	Revenue Officer Shikarpur	|	Mr.	Ghulam Yasin Hambhi	-	0333-9993776	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Shikarpur-I	|	Mr.	Abdul Sammad Unar	-	0333-7287704	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Shikarpur-II	|	Mr.	 Suhail Ahmed Malano	-	0333-7274416	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Lakhi	|	Mr.	Bashir Ahmed Bajkani	-	0300-2494751	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Khanpur	|	Haji	Hosh Muhammad Sethar	-	0336-3188685	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Garhi Yasin	|	Mr.	Allahuddin Lashari	-	0306-3363532	</a>	</li>
+<a href="#">	<li>	XEN Opr. Divn. Jacobabad	|	Mr.	Shafqat Ali Lashari	-	0305-8324125	</a>	</li>
+<a href="#">	<li>	Revenue Officer Jacobabad	|	Mr.	Abdul Nabi Qureshi	-	0333-7332499	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Jacobabad-I	|	Mr.	Ali Nawaz Lashari	-	0333-3227700	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Jacobabad-II	|	Mr.	Muhammad Shahbaz Awan	-	0300-3174482	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Thull	|	Mr.	Waqar Ahmed Noonari	-	0333-3157522	</a>	</li>
+<a href="#">	<li>	XEN Opr. Divn. Kandh-Kot	|	Mr.	Mukhtair Ahmed Ansari	-	0333-3171331	</a>	</li>
+<a href="#">	<li>	Revenue Officer Kandh-Kot	|	Mr.	Matiullah Awan	-	0333-7300991	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Kandh-Kot-I	|	Mr.	Nisar Ahmed Mangrio	-	0333-7354621	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Kandh-Kot-II	|	Mr.	Khalid Ahmed Bajkani	-	0301-3684386	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Kashmore	|	Mr.	Aftab Ahmed Khoso	-	0332-0354074	</a>	</li>
+<a href="#">	<li>	Superintending Engineer Opr. Circle Dadu	|	Mr.	Aijaz Ahmed Channa 	-	0300-3402758	</a>	</li>
+<a href="#">	<li>	Deputy Commercial Manager Opr. Circle Dadu	|	Mr.	Mujeeb ur Rehman Abbasi	-	0300-6999971	</a>	</li>
+<a href="#">	<li>	Deputy Director (Technical) Opr. Circle Dadu	|	Mr.	Mansoor Ahmed Bhambhro	-	0300-3792892	</a>	</li>
+<a href="#">	<li>	SDO (Rotary Cell) Opr. Circle Dadu	|	Mr.	Ghulam Sarwar Sahtio	-	0300-3622322	</a>	</li>
+<a href="#">	<li>	XEN Opr. Divn. Dadu	|	Mr.	Abdul Aziz Panhwar 	-	0300-3020501	</a>	</li>
+<a href="#">	<li>	Revenue Officer Dadu	|	Mr.	Shahnawaz Memon	-	0308-3910061	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Dadu-I	|	Mr.	Noor Muhammad Chandio	-	0345-3949000	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Dadu-II	|	Mr.	Tufail Ahmed Panhwar	-	0334-2203011	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Johi	|	Mr.	Jhando Khan Jamali	-	0300-3127785	</a>	</li>
+<a href="#">	<li>	XEN Opr. Divn. Mehar	|	Mr.	Nisar Ahmed Baloch 	-	0300-9374684	</a>	</li>
+<a href="#">	<li>	Revenue Officer Mehar	|	Mr.	Ahmed Raza Leghari	-	0333-7545745	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Mehar	|	Mr.	Faheem Aslam Shaikh	-	0300-1005303	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. K.N Shah	|	Mr.	Farooque Ahmed Kabroo	-	0300-7035903	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Radhan	|	Mr.	Mushtaque Mirani	-	0300-3425332	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Rahmani Nagar	|	Mr.	Imtiaz Ali Solangi	-	0306-3510676	</a>	</li>
+<a href="#">	<li>	XEN Opr. Divn. Naushero Feroze	|	Mr.	Syed Shahid Hussain Shah	-	0300-3115615	</a>	</li>
+<a href="#">	<li>	Revenue Officer Naushero Feroze	|	Mr.	Asif Ali Channa	-	0300-2638189	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Naushero Feroze	|	Mr.	Asadullah Memon	-	0316-3967755	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Bhriya Road	|	Mr.	Nadeem Ahmed Jokhio	-	0300-8025389	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Kandiaro	|	Mr.	Nadeem Ahmed Jokhio	-	0300-8025389	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Mehrabpur	|	Mr.	Riaz Hussain Mangi	-	0305-3266456	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Tharu Shah	|	Mr.	Muhammad Zaman	-	0300-3740880	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Padidan	|	Mr.	Zulfiquar Ali Noonari	-	0300-3413396	</a>	</li>
+<a href="#">	<li>	XEN Opr. Divn. Moro	|	Mr.	Irshad Ahmed Siyal	-	0300-3089999	</a>	</li>
+<a href="#">	<li>	Revenue Officer Moro	|	Mr.	Muhammad Ameen	-	0300-3200396	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Moro-I	|	Mr.	Sheeraz Ahmed	-	0301-3317126	</a>	</li>
+<a href="#">	<li>	SDO Opr. Sub Divn. Moro-Rural	|	Mr.	Abid Ali Siyal	-	0308-3212717	</a>	</li>
+<a href="#">	<li>	Finance Director Sukkur	|	Mr.	Imdad Ali Mirani	-	0300-0881101	</a>	</li>
+<a href="#">	<li>	Manager (CA)	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	Deputy Manager (CA)	|	Mr.	Saleem Aalam	-	0300-8314503	</a>	</li>
+<a href="#">	<li>	Assistant Manager (CA)	|	Mr.	Asif Mateen Bhatti	-	0333-7180616	</a>	</li>
+<a href="#">	<li>	Assistant Manager (CA)	|	Mr.	Haresh Kumar	-	0300-9319008	</a>	</li>
+<a href="#">	<li>	Assistant Manager (CA)	|	Mr.	Shoaib Ahmed Lakho	-	0321-3106300	</a>	</li>
+<a href="#">	<li>	Deputy Manager (CA)	|	Mr.	Ahmed Hussain Buriro	-	0333-2668899	</a>	</li>
+<a href="#">	<li>	Assistant Manager (CA)	|	Mr.	Salman Islam	-	0311-2457481	</a>	</li>
+<a href="#">	<li>	Assistant Manager (CA)	|	Mr.	Muhammad Ali Chijjan	-	0311-9323786	</a>	</li>
+<a href="#">	<li>	Assistant Manager (CA)	|	Mr.	Ahmed Hussain Buriro	-	0333-2668899	</a>	</li>
+<a href="#">	<li>	Manager (CP&C)	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	Deputy Manager (Tarrif)	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	Assistant Manager (CA)	|	Mr.	Mujahid Hussain Mirani	-	0333-3565219	</a>	</li>
+<a href="#">	<li>	Deputy Manager (Taxes)	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	Assistant Manager (CA)	|	Mr.	Shahab Ahmed	-	0332-2920175	</a>	</li>
+<a href="#">	<li>	Manager (Internal Audit) Sukkur	|	Mr.	Muhammad Ishaque Mahar	-	0333-3744995	</a>	</li>
+<a href="#">	<li>	Deputy Manager (Internal Audit) Sukkur	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	Assistant Manager / Audit Officer	|	Mr.	Aijaz Ali Laghari	-	0333-7100066	</a>	</li>
+<a href="#">	<li>	Manager (MIS) Sukkur	|	Mr.	Muhammad Amin Siddiqui	-	0301-3685595	</a>	</li>
+<a href="#">	<li>	Deputy Manager (MIS) Sukkur	|	Mr.	Muhammad Abbas	-	0333-2743448	</a>	</li>
+<a href="#">	<li>	Assistant Manager (MIS) Sukkur	|	Syed	Irfan Ali Shah	-	0315-3382754	</a>	</li>
+<a href="#">	<li>	Addl. Assistant Manager (MIS) Sukkur	|	Mr.	Muhammad Irfan Siddiqui	-	0333-3983546	</a>	</li>
+<a href="#">	<li>	Addl. Assistant Manager (MIS) Sukkur	|	Mr.	Muhammad Aslam Meo	-	0333-7116239	</a>	</li>
+<a href="#">	<li>	Addl. Assistant Manager (MIS) Sukkur	|	Mr.	Ghulam Mueen-ud-din Durani	-	0332-2937308	</a>	</li>
+<a href="#">	<li>	Deputy Manager (MIS) Larkana	|	Mr.	Muhammad Tariq	-	0333-2601635	</a>	</li>
+<a href="#">	<li>	Addl. Assistant Manager (MIS) Larkana	|	Mr.	Israr Ahmed	-	0331-3917940	</a>	</li>
+<a href="#">	<li>	Addl. Assistant Manager (MIS) Larkana	|	Mr.	Munwar Ali Shaikh	-	0333-7534451	</a>	</li>
+<a href="#">	<li>	Addl. Assistant Manager (MIS) Larkana	|	Mr.	Ayaz Hussain Soomro	-	0331-3479394	</a>	</li>
+<a href="#">	<li>	Director General MIRAD	|	Mr.	Bashir Ahmed Shaikh	-	0336-8277892	</a>	</li>
+<a href="#">	<li>	Deputy Manager (Finance) - MIRAD	|	Mr.	Mirza Muhammad Asad Baig	-	0300-8314431	</a>	</li>
+<a href="#">	<li>	Assistant Manager (Finance) MIRAD	|	Mr.	Haresh Kumar	-	0300-9319008	</a>	</li>
+<a href="#">	<li>	Assistant Manager (Finance) MIRAD	|	Mr.	Ahmed Hussain Buriro	-	0333-2668899	</a>	</li>
+<a href="#">	<li>	Assistant Manager (Admn.) -MIRAD	|	Mr.	Shams -ul- Haq	-	0334-2709654	</a>	</li>
+<a href="#">	<li>	Manager (Planning and Forecasting) MIRAD	|	Mr.	Khalid Hussain Shaikh	-	0333-7122762	</a>	</li>
+<a href="#">	<li>	Deputy Manager (Transmission & Planning) - MIRAD	|	Mr.	Ahmed Khan Shaikh	-	0306-2700506	</a>	</li>
+<a href="#">	<li>	Assistant Manager (Transmission & Planning) - MIRAD	|	Mr.	Amjad Ali Qureshi	-	0307-3671374	</a>	</li>
+<a href="#">	<li>	Assistant Manager (Transmission & Planning) - MIRAD	|	Mr.	Ashfaq Ahmed Channa	-	0312-4515319	</a>	</li>
+<a href="#">	<li>	Deputy Manager (Demand Forecasting) - MIRAD	|	Mr.	Ghulam Ali Tunio	-	0301-2245760	</a>	</li>
+<a href="#">	<li>	Assistant Manager (Demand Forecasting) - MIRAD	|	Ms	Nayab	-	0336-3856242	</a>	</li>
+<a href="#">	<li>	Assistant Manager (Demand Forecasting) - MIRAD	|	Mr.	Hassan Ali Kalwar	-	0333-7126574	</a>	</li>
+<a href="#">	<li>	Manager (Contract Management & Regulatory Affairs) MIRAD	|	Mr.	Jawed Ahmed Soomro	-	0300-3749660	</a>	</li>
+<a href="#">	<li>	Deputy Manager (Contract Management) - MIRAD	|	Mr.	Imdadullah Unar	-	0300-3152784	</a>	</li>
+<a href="#">	<li>	Assistant Manager (Contract Management) -MIRAD	|	Mr.	Sanaullah Soomro	-	0315-3035883	</a>	</li>
+<a href="#">	<li>	Assistant Manager (Contract Management) -MIRAD	|	Mr.	Syed Muhammad Naqi Shah	-	0300-3131028	</a>	</li>
+<a href="#">	<li>	Deputy Manager (Regulatory Affairs) - MIRAD	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	Assistant Manager (Regulatory Affairs) - MIRAD	|	Mr.	Jawed Ahmed Channa	-	0300-8319120	</a>	</li>
+<a href="#">	<li>	Manager (Legal / Contract) MIRAD	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	Deputy Manager (Legal / Contract) - MIRAD	|	Mr.	-	-	-	</a>	</li>
+<a href="#">	<li>	Senior Engineer (ON Deputation with PPMC)	|	Mr.	Mushtaque Hussain Burdi	-	0300-4775111	</a>	</li>
+<a href="#">	<li>	Senior Engineer (Attached with RHQ)	|	Mr.	Muhammad Azeem Abbasi	-	0300-3759757	</a>	</li>
+<a href="#">	<li>	Senior Engineer (Attached with RHQ)	|	Mr.	Khalil Ahmed Chandio	-	0300-3417034	</a>	</li>
+<a href="#">	<li>	Senior Engineer (Attached with RHQ)	|	Mr.	Habib ur Rehman Panhwar	-	0301-3602910	</a>	</li>
+<a href="#">	<li>	Manager Inventory Control (Attached with RHQ)	|	Mr.	Arif Hussain Bhutto	-	0306-3775784	</a>	</li>
+
+
+
+</ul>
+
+
+
+
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+
+        }
+    }
+}
+</script>
+</div>
+
+<script>
+window.onscroll = function() {myFunctions()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+
+function myFunctions() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+
+
+</body>
+
+</html>
